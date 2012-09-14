@@ -1,0 +1,90 @@
+html, body
+  height: 100%
+
+body
+  background: url('/static/img/bg.png')
+
+h1, h2
+  font-family: 'Ubuntu Mono', sans-serif
+
+pre
+  overflow: auto
+  &::-webkit-scrollbar
+    height: 6px
+    background: rgba(22, 22, 22, 0.15)
+  &::-webkit-scrollbar-thumb:horizontal
+    background: rgba(22, 22, 22, 0.7)
+    -webkit-border-radius: 4px
+    border-radius: 4px
+
+.navbar-fixed-top
+  font-family: 'Ubuntu Mono', sans-serif
+  font-size: 110%
+  position: static
+  margin-bottom: 18px
+
+.page-header
+  /* background-color: #f5f5f5 */
+  padding: 20px 20px 20px
+  margin: -20px -20px 20px
+
+.container
+  height: 100%
+  .content
+    min-height: 100%
+    /* background-color: #fff */
+    padding: 20px
+    margin: 0 -20px
+    /* -webkit-border-radius: 0 0 6px 6px */
+    /* -moz-border-radius: 0 0 6px 6px */
+    /* border-radius: 0 0 6px 6px */
+    /* -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) */
+    /* -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) */
+  footer
+    border-top: 1px dotted #c4c4c4
+    height: 100px
+    padding-top: 20px
+    padding-bottom: 20px
+
+.np-nav .btn-group
+  text-align: center
+  .btn
+    float: none
+    width: 40px
+    margin-left: -4px
+  .disabled
+    opacity: 0.75
+
+.post
+  padding-bottom: 20px
+  .date
+    padding-top: 20px
+
+.sidebar
+  h3
+    font-family: 'Ubuntu Mono', sans-serif
+  div
+    padding-bottom: 10px
+  img.thumbnail
+    width: 80px
+    height: 80px
+    margin-top: 6px
+    margin-right: 10px
+
+.social a
+  opacity: 0.75
+  transition: opacity 200ms ease-out
+  -webkit-transition: opacity 200ms ease-out
+  -moz-transition: opacity 200ms ease-out
+  -o-transition: opacity 200ms ease-out
+  &:hover
+    text-decoration: none
+    opacity: 1
+
+.coderwall-root
+  .coderwall-logo
+    display: none
+
+#disqus_thread
+  margin: 20px 0 20px 0

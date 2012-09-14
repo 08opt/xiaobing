@@ -1,0 +1,16 @@
+<div class="social">
+  <p>
+    <a href="//github.com/s1n4" target="_blank">
+      <img src="/static/img/github.png" alt="GitHub">
+    </a>
+    <a href="//plus.google.com/u/0/115489550285603919277" target="_blank">
+      <img src="/static/img/googleplus.png" alt="Google+">
+    </a>
+    <a href="//twitter.com/_s1n4_" target="_blank">
+      <img src="/static/img/twitter.png" alt="Twitter">
+    </a>
+    <a href="//zerply.com/s1n4" target="_blank">
+      <img src="/static/img/zerply.png" alt="Zerply">
+    </a>
+  </p>
+</div>
