@@ -1,0 +1,5 @@
+permalink: /blog/:title
+markdown: rdiscount
+url: http://dushunfan.com/
+author: 杜顺帆
+pygments: true

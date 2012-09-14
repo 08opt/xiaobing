@@ -1,0 +1,19 @@
+---
+layout: default
+title: 杜顺帆的个人博客
+description: 杜顺帆，爱好机器人，计算机技术，游泳。希望能在自己的个人博客中传播自己的想法和经历。
+---
+<h2>新日志</h2>
+{% for post in site.posts limit: 3  %}
+  <h3><a href="{{ post.url }}" class="green">{{ post.title }}</a></h3>
+  <p>{{ post.date | date:"%Y年%m月%d日" }}</p>
+  <p>{{ post.description }} <a href="{{ post.url }}" class="orange">继续阅读</a></p> 
+{% endfor %}
+<br />
+<h2>以往的日志</h2>
+<ul>
+  {% for post in site.posts limit: 10 offset: 3 %}
+    <li>{{ post.date | date:"%Y年%m月%d日" }} <a href="{{ post.url }}" class="green">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+<h2><a href="/archives.html" class = "green">更多日志 &raquo;</a></h2>
