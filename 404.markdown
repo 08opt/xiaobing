@@ -1,0 +1,10 @@
+---
+title: 404
+layout: page
+---
+
+lol 404
+主人正在洗澡
+Nothing found :(
+
+But you still can have a [look around](/index.html)
