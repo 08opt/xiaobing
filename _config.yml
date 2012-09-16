@@ -1,6 +1,6 @@
 markdown: rdiscount
 permalink: /:year/:month/:title/
-url: http://geeklu.com
-author: 卢克
+url: http://www.08optics.com
+author: 小兵Blog
 pygments: true
 paginate: 16
