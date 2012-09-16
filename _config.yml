@@ -1,5 +1,6 @@
 markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://www.08optics.com
+author: 小兵blog
 pygments: true
-permalink: /:year/:month/:day/:title.html
-name: setImpl
-markdown: rdiscount
+paginate: 16
