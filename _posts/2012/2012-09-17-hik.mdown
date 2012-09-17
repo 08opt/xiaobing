@@ -1,0 +1,14 @@
+---
+layout: post
+title: make 一下
+categories:
+- Life
+tags:
+- goagent
+- hikvision
+---
+
+翻墙才把public key给添加进github，不过git bash不用翻墙也能用，很好~
+以后慢慢的养成写日志的习惯吧，要写一些有深度的东西才行。
+
+
